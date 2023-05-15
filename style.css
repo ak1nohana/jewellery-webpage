@@ -1,0 +1,155 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: #41372E;
+}
+
+body {
+    display: block;
+    width: 80vw;
+    max-width: 1152px;
+    margin: auto;
+    background-color: #D9B99B;
+    background-image: url(./images/background1-beige.png);
+    background-size: 500px;    
+}
+
+/* ---------HEADER--------- */
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #F0DCC5;
+    border-radius: 0 0 8px 8px;
+}
+
+#h_logo {
+    width: 20%;
+    padding: 20px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: #41372E;
+}
+
+/* ---------MAIN---------- */
+
+#main-sec h1,p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-weight: bold;
+    /* color: white; */
+}
+
+#main-sec h1 {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    color: #41372E;
+    border: 10px;
+    text-transform: uppercase;
+}
+
+#main-sec article{
+    background-color: #E5CEAF;
+    background-image: url(./images/anastasia-anastasia-lc_2pnDrwLo-unsplash.jpg);
+    background-size: 80vw;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.container {
+    display: block;
+    background-color: #E5CEAF;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.articles {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+article {
+    background-color: #F0DCC5;
+    color: black;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+article h2,p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+
+#photo {
+    display: block;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#photo:hover {
+    transform: scale(110%);
+}
+
+#heading {
+    padding-top: 15px;
+}
+
+#heading h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    color: #41372E;
+    border: 10px;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+/* ------------FOOTER----------- */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#f_logo {
+    width: 30%;
+}
